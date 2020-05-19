@@ -114,17 +114,19 @@ body {
 	transform-origin: center;
 	animation: breathingStar 1.7s ease-out infinite;
 	animation-direction: alternate-reverse;
+	z-index: 80;
 }
 .star img {
 	width: 100%;
 	height: 100%;
+
 
 }
 
 #uniqueStar {
 	cursor: pointer;
 	position: absolute;
-	animation: breathingUnqStar 5s ease-out 1;
+	animation: breathingUnqStar 3s ease-out 1;
 	animation-fill-mode: forwards;
 
 }
@@ -165,6 +167,7 @@ body {
 	transform: translate(-50%, 50%);
 	transition: opacity 5s ease-out;
 	animation: cakeMovement 3s 2s ease alternate-reverse infinite;
+	z-index: 70;
 }
 .cake img {
 	width: 100%;

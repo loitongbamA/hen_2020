@@ -12,8 +12,8 @@ const a3 = document.querySelector("#s3");
 
 const star = document.querySelector("#star");
 const mainbox = document.querySelector("#main");
-const sWidth = window.innerWidth;
-const sHeight = window.innerHeight;
+const sWidth = window.outerWidth;
+const sHeight = window.outerHeight;
 const halfVW = (sWidth / 2) - 50;
 const halfVH = sHeight / 1.8;
 const starCount = 35;
@@ -37,13 +37,13 @@ function removeScreen(){
     body.classList.add("bodyFlick");
     
     
-    setInterval(randomize, 5000);
+    setInterval(randomize, 6000);
     setTimeout(()=> {
         a2.play();
         dropStars();
         
-        setTimeout(cakeFn, 1500);
-    }, 5000);
+        setTimeout(cakeFn, 2000);
+    }, 6000);
 }
 
 function cakeFn(){
@@ -100,7 +100,7 @@ const uniqueStarPrinter = setInterval( function(){
         }
         uniqueStar();
         },
-        5000 );
+        3000 );
 
 function circleGenerator(photo){
     let imgTag = document.createElement("img");
@@ -142,7 +142,7 @@ function dropStars(){
             let allStars = document.querySelectorAll(".star");
             star.innerHTML = `<img src=\"rose/${pic}.png\" >`;
             star.style.width = `${iw}rem`;
-        }, 1000
+        }, 1200
         )
     });
 }
