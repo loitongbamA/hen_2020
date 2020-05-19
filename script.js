@@ -12,8 +12,8 @@ const a3 = document.querySelector("#s3");
 
 const star = document.querySelector("#star");
 const mainbox = document.querySelector("#main");
-const sWidth = window.outerWidth;
-const sHeight = window.outerHeight;
+const sWidth = window.innerWidth;
+const sHeight = window.innerHeight;
 const halfVW = (sWidth / 2) - 50;
 const halfVH = sHeight / 1.8;
 const starCount = 35;
