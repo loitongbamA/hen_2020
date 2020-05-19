@@ -155,7 +155,7 @@ body {
 	border-radius: 50%;
 }
 .dropStars {
-	animation: dropStars 1s ease-in forwards;
+	animation: dropStars 2s ease-in forwards;
 }
 
  .cake {
