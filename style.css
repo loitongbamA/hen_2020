@@ -186,7 +186,7 @@ body {
 	left: 50%;
 	bottom: 15%;
 	transform: translateX(-50%);
-	transition: opacity 5s 3s ease-out;
+	transition: opacity 5s 15s ease-out;
 	z-index: 60;
 }
 .wish_text .hbd_text {
