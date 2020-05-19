@@ -142,7 +142,7 @@ function dropStars(){
             let allStars = document.querySelectorAll(".star");
             star.innerHTML = `<img src=\"rose/${pic}.png\" >`;
             star.style.width = `${iw}rem`;
-        }, 1200
+        }, 2200
         )
     });
 }
